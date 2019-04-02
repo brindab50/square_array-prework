@@ -4,7 +4,6 @@ def square_array(array)
   array.each do |number|
     
   number ** 2
-  puts my_new_array
-  
+  array.push(number**2)
 end
 end
